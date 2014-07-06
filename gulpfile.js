@@ -18,7 +18,7 @@ gulp.task('markdown', function() {
 gulp.task('jade', ['clean'], function() {
 	return gulp.src('site/index.jade')
 		.pipe(jade({ pretty: true }))
-		.pipe(gulp.dest('index.html'))
+		.pipe(gulp.dest('.'))
 		.pipe(connect.reload());
 });
 
