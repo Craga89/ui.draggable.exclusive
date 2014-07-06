@@ -1,0 +1,44 @@
+doctype
+html
+	head
+		title ui.draggable.exclusive by Craga89
+		meta(charset='utf-8')
+		meta(http-equiv='X-UA-Compatible', content='chrome=1')
+		meta(name='viewport', content='width=device-width, initial-scale=1, user-scalable=no')
+		link(rel='stylesheet', href='../site/stylesheets/styles.css')
+		link(rel='stylesheet', href='../site/stylesheets/pygment_trac.css')
+		script(src='../site/javascripts/scale.fix.js')
+		//if lt IE 9
+			script(src='//html5shiv.googlecode.com/svn/trunk/html5.js')
+	body
+		.wrapper
+			header
+				h1.header
+					| ui.draggable.
+					wbr
+					| exclusive
+				p.header Adds <em>exclusivity</em> support to jQuery UI's `draggable` component
+				ul
+					li.download
+						a.buttons(href='https://github.com/Craga89/ui.draggable.exclusive/zipball/master') Download ZIP
+					li.bower
+						a.buttons(href='http://bower.io/search/?q=ui.draggable.exclusive') Bower package
+					li
+						a.buttons.github(href='https://github.com/Craga89/ui.draggable.exclusive') View On GitHub
+
+				p.header
+					| This project is maintained by 
+					a.header.name(href='https://github.com/Craga89') Craga89
+			
+			section#content
+				include content.html
+
+			footer
+				p
+					small
+						| Hosted on 
+						a(href='http://pages.github.com') GitHub Pages
+						|  using the Dinky theme
+		//if !IE
+			script
+				fixScale(document);

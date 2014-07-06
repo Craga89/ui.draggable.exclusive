@@ -1,0 +1,37 @@
+{
+  "name": "ui.draggable.exclusive",
+  "version": "0.1.0",
+  "description": "Adds exclusivity support to jQuery UI's ui.draggable component",
+  "main": "jquery-ui.draggable.exclusive.js",
+  "title": "jQuery UI - Exclusive Draggables",
+  "homepage": "http://github.com/Craga89/ui.draggable.exclusive",
+  "author": "Craig Michael Thompson <craig@craigsworks.com> (http://craigsworks.com)",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Craga89/ui.draggable.exclusive.git"
+  },
+  "keywords": [
+    "jqueryui",
+    "draggable",
+    "droppable",
+    "solo",
+    "exclusive",
+    "singular"
+  ],
+  "bugs": {
+    "url": "http://github.com/Craga89/ui.draggable.exclusive/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/Craga89/ui.draggable.exclusive/blob/master/LICENSE"
+    }
+  ],
+  "devDependencies": {
+    "gulp": "^3.8.5",
+    "gulp-connect": "^2.0.5",
+    "gulp-jade": "^0.6.1",
+    "gulp-markdown": "^0.1.2",
+    "gulp-rimraf": "^0.1.0"
+  }
+}

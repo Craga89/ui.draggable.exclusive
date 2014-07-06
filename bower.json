@@ -1,0 +1,10 @@
+{
+	"name": "ui.draggable.exclusive",
+	"version": "0.1.0",
+	"description": "Adds exclusivity support to jQuery UI's ui.draggable component",
+	"main": "jquery-ui.draggable.exclusive.js",
+	"dependencies": {
+		"jquery": ">=1.6.4",
+		"jqueryui": ">=1.9.1"
+	}
+}
