@@ -31,7 +31,7 @@ gulp.task('connect', function() {
 
 gulp.task('site', ['connect'], function() {
 	gulp.watch('site/**/*.md', ['markdown', 'jade']);
-	gulp.watch('site/**/*.jade', ['jade']);
+	gulp.watch('site/**/*.jade', ['markdown', 'jade']);
 	gulp.watch('site/**/*.css').on('change', connect.reload);
 	gulp.watch('site/**/*.js').on('change', connect.reload);
 });
