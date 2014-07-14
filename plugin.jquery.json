@@ -1,0 +1,43 @@
+{
+  "name": "ui.draggable.exclusive",
+  "version": "0.1.0",
+  "description": "Adds exclusivity support to jQuery UI's ui.draggable component",
+  "title": "jQuery UI - Exclusive Draggables",
+  "homepage": "http://github.com/Craga89/ui.draggable.exclusive",
+  "author": "Craig Michael Thompson <craig@craigsworks.com> (http://craigsworks.com)",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Craga89/ui.draggable.exclusive.git"
+  },
+  "keywords": [
+    "jqueryui",
+    "draggable",
+    "droppable",
+    "solo",
+    "exclusive",
+    "singular"
+  ],
+  "bugs": {
+    "url": "http://github.com/Craga89/ui.draggable.exclusive/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/Craga89/ui.draggable.exclusive/blob/master/LICENSE"
+    }
+  ],
+  "dependencies": {
+    "jquery": ">=1.6.4",
+    "jqueryui": ">=1.9.1"
+  },
+  "download": "https://github.com/Craga89/ui.draggable.exclusive/zipball/gh-pages",
+  "docs": "https://Craga89.github.com/ui.draggable.exclusive/",
+  "demo": "https://Craga89.github.com/ui.draggable.exclusive/",
+  "maintainers": [
+    {
+      "name": "Craig Michael Thompson",
+      "email": "craig@craigsworks.com",
+      "url": "http://craigsworks.com/"
+    }
+  ]
+}
