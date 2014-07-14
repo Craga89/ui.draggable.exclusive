@@ -47,7 +47,7 @@ Big props to him, it's an awesome algorithm (I hope you'll agree...)!
 ### exclusive `[default: false]`
 Turns the exclusivity of this particular `draggable` instance on. **Required for the other options to take effect**.
 
-### mouseThreshold `[default: 5px]`
+### moveThreshold `[default: 5px]`
 Number of pixels the mouse must move in any axis to cause a recalculation of mouse direction.
 
 ### directionRatio `[default: 7]`

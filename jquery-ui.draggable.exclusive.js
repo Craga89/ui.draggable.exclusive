@@ -103,11 +103,11 @@
 			Number of pixels the mouse must move in order for the overall directionality of the
 			cursor to be re-calculated.
 
-			@property options.mouseThreshold
+			@property options.moveThreshold
 			@type Number
 			@default 5
 			**/
-			mouseThreshold: 5,
+			moveThreshold: 5,
 
 			/**
 			Amount of comparable axis movement needed in order to consider the movement of the mouse
@@ -251,12 +251,12 @@
 				lastX = this._lastX,
 				lastY = this._lastY,
 				helper = this.helper,
-				mouseThreshold = this.options.mouseThreshold,
+				moveThreshold = this.options.moveThreshold,
 				dirRatio = this.options.directionRatio,
 				diffX, diffY, newDir;
 
 			// Ensure the mouse has moved our threshold movement
-			if(Math.abs(x - lastX) <= mouseThreshold && Math.abs(y - lastY) <= mouseThreshold) { return; }
+			if(Math.abs(x - lastX) <= moveThreshold && Math.abs(y - lastY) <= moveThreshold) { return; }
 
 			// Calculate difference between the points
 			diffX = x - lastX; diffY = y - lastY;
@@ -433,6 +433,7 @@
 	}
 
 	// Taken from Underscore.js source
+	// http://underscorejs.org/docs/underscore.html#section-71
 	function throttle(func, wait, options) {
 		var context, args, result;
 		var timeout = null;
